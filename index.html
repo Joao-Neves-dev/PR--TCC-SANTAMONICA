@@ -1,44 +1,47 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Studio Santa Monica</title>
-<link rel="stylesheet" href="style.css">
-</head>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Minha Empresa</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
 <body>
 
   <header class="topo">
-    <div class="logo">LOGO</div>
+    <div class="logo">
+      <img class="logo" src="imagens/SonySantaMonicaStudioLogo.png" alt="studiosanta">
+    </div>
   </header>
 
   <nav class="menu">
-    <a href="index.html">Início</a>
-    <a href="jogos.html">Jogos</a>
-    <a href="#">Novidades</a>
-    <a href="#">Parcerias</a>
+    <a class="link-menu" href="#">Início</a>
+    <a class="link-menu" href="#">Jogos</a>
+    <a class="link-menu" href="#">Novidades</a>
+    <a class="link-menu" href="#">Parcerias</a>
   </nav>
 
-  <main>
+  <main class="principal">
+
     <section class="sobre">
-      <h2>Sobre a empresa</h2>
-      <p>Escreva aqui o texto sobre a sua empresa...</p>
+      <h2 class="sobre-titulo">Sobre a empresa</h2>
+      <p>O Santa Monica Studio é um estúdio de desenvolvimento de jogos pertencente à PlayStation Studios, da Sony. Fundado em 1999, o estúdio ficou mundialmente conhecido por criar a franquia God of War, lançada originalmente em 2005 para o PlayStation 2. Ao longo dos anos, o Santa Monica Studio se destacou pela criação de jogos com grandes mundos, combates marcantes e histórias cinematográficas. Entre seus principais trabalhos estão God of War, God of War (2018) e God of War Ragnarök (2022), consolidando o estúdio como uma das equipes mais importantes da PlayStation.</p>
     </section>
 
-    <!-- Jogos + nomes -->
+    <!-- Jogos - nomes -->
     <section class="grade">
-      <article class="jogo">
-        <div class="banner">Jogo</div>
-        <div class="nome">Nome do jogo 1</div>
-      </article>
-      <article class="jogo">
-        <div class="banner">Jogo</div>
-        <div class="nome">Nome do jogo 2</div>
-      </article>
-      <article class="jogo">
-        <div class="banner">Jogo</div>
-        <div class="nome">Nome do jogo 3</div>
-      </article>
+      <div>
+        <div class="banner-jogo">Jogo</div>
+        <div class="nome-jogo">Nome do jogo 1</div>
+      </div>
+      <div>
+        <div class="banner-jogo">Jogo</div>
+        <div class="nome-jogo">Nome do jogo 2</div>
+      </div>
+      <div>
+        <div class="banner-jogo">Jogo</div>
+        <div class="nome-jogo">Nome do jogo 3</div>
+      </div>
     </section>
 
     <!-- Promoções -->
@@ -47,11 +50,25 @@
       <div class="promo">Promo</div>
       <div class="promo">Promo</div>
     </section>
+
   </main>
 
-  <footer>
-    <p>Rodapé</p>
-    <a href="#">Termos</a>
+  <footer class="rodape">
+
+    <a class="termos" href="https://www.playstation.com/en-us/legal/website-terms-of-use/" target="_blank">Termos de Serviço</a>
+
+    <div class="contatos">
+      <a class="bolinha" href="mailto:seuemail@exemplo.com" target="_blank">
+        <img class="icone" src="imagens/logo-email.jpg" alt="Email">
+      </a>
+      <a class="bolinha" href="https://www.instagram.com/santamonicastudio/" target="_blank">
+        <img class="icone" src="imagens/logo-instagram.webp" alt="Instagram">
+      </a>
+      <a class="bolinha" href="https://www.playstation.com/pt-br/" target="_blank">
+        <img class="icone" src="imagens/logo-sony.png" alt="WhatsApp">
+      </a>
+    </div>
+
   </footer>
 
 </body>
