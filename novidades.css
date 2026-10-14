@@ -3,3 +3,123 @@
     padding: 0%;
     box-sizing: border-box;
 }
+
+body{
+    background-color:blanchedalmond;
+}
+main{
+    padding: 24px;
+}
+
+.topo {
+    background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
+    padding: 20px 40px;
+  }
+  
+  .logo {
+    width: 90px;
+    height: 90px;
+    background: #888;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
+  }
+
+  .menu {
+    background: #e63946;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    padding: 14px 40px;
+  }
+  
+  .link-menu {
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 20px;
+    border: 2px solid #fff;
+    border-radius: 12px;
+    font-weight: bold;
+  }
+  
+  .link-menu:hover {
+    background: #fff;
+    color: #e63946;
+  }
+
+
+  .banner{
+    background-image: url(./img/Banner\ teste\ 2.jpg);
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: 80vh;
+    background-size:cover;
+    background-position: center;
+  }
+  /*CAIXAS DE NOVIDADE*/
+
+  .novidade{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    border: 1px solid #520606;
+    padding: 12px;
+  }
+  .card img{
+    width: 120px;
+    height: 100px;
+    object-fit: cover;
+  }
+  .conteudo{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  /*rodapé*/
+
+  .rodape {
+    background: #1e1e2f;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .termos {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .termos:hover {
+    text-decoration: underline;
+  }
+  
+  .contatos {
+    display: flex;
+    gap: 14px;
+  }
+  
+  .bolinha {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .icone {
+    width: 24px;
+    height: 24px;
+  }
