@@ -1,7 +1,10 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f2f2f2;
+    background-image: url(imagens/background-godofwar.jfif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
     color: #222;
     display: flex;
     flex-direction: column;
@@ -10,8 +13,11 @@ body {
   
   /*TOPO (logo) - Background 1*/
   .topo {
-    background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
-    padding: 20px 40px;
+   background-color:#1e1e2f;
+   text-align: center;
+   display: flex;
+   padding: 20px 40px;
+   justify-content: space-between;
   }
   
   .logo {
@@ -25,7 +31,16 @@ body {
     color: #fff;
     font-size: 14px;
   }
-  
+
+  .bug{
+    padding-right: 115px;
+  }
+
+  .bug a{
+    text-decoration: none;
+    color: #fff;
+  }
+
   /*MENU - Background 2*/
   .menu {
     background: #e63946;
@@ -73,8 +88,6 @@ body {
   }
   
   .grade {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
     gap: 24px;
     margin-bottom: 30px;
   }
@@ -103,16 +116,26 @@ body {
   
   /*Promoções*/
   .promo {
-    height: 140px;
-    background: #ffd166;
-    border: 2px solid #222;
+    width: 250px;
+    height: 80px;
+    background: #95D7FF;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
     border-radius: 10px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    font-size: 22px;
+    justify-content: space-around;
+    font-size: 15px;
     font-weight: bold;
+    gap: 100px;
   }
+
+  .grade{
+    display: flex;
+    justify-content: center;
+    margin: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+  } 
   
   /*RODAPÉ*/
   .rodape {
@@ -151,3 +174,30 @@ body {
     width: 24px;
     height: 24px;
   }
+
+  .cards{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card{
+    background-color: #95D7FF;
+    width: 250px;
+    border-radius: 7px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.card:hover{
+    transform: scale(1.01);
+    transition: 1s;
+}
+
+.card img{
+    width: 100%;
+    height: 250px;
+}
