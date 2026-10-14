@@ -13,8 +13,11 @@ body {
   
   /*TOPO (logo) - Background 1*/
   .topo {
-    background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
-    padding: 20px 40px;
+   background-color:#1e1e2f;
+   text-align: center;
+   display: flex;
+   padding: 20px 40px;
+   justify-content: space-between;
   }
   
   .logo {
