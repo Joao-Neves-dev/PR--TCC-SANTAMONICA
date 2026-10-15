@@ -60,6 +60,10 @@ main{
     background-size:cover;
     background-position: center;
   }
+  .texto{
+    width: 45%;
+    font-size:v 
+  }
   /*CAIXAS DE NOVIDADE*/
 
   .novidade{
@@ -85,8 +89,20 @@ main{
     display: flex;
     flex-direction: column;
     gap: 8px;
+    font-size: 20px;
+   
   }
-
+  .conteudo a{
+    text-decoration: none;
+    color: #1e1e2f;
+  }
+  .conteudo a:hover{
+    text-decoration: underline;
+    color:#e63946;
+  }
+  h2{
+    font-size: 30px;
+  }
   /*rodapé*/
 
   .rodape {
