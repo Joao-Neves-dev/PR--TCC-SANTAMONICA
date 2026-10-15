@@ -1,6 +1,7 @@
 *{
     margin: 0%;
-    padding: ing: border-box;
+    padding: 0%;
+    box-sizing: border-box;
 }
 
 body{
@@ -72,6 +73,8 @@ main{
     gap: 16px;
     border: 1px solid #520606;
     padding: 12px;
+    border-radius: 15px;
+    margin: 15px;
   }
   .card img{
     width: 120px;
