@@ -1,65 +1,201 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-image: url(imagens/background-godofwar.jfif);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-image: url("imagens/background.jpg");
+    background-size: contain;
+    background-color: #1e1e2f;
     color: #222;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-  }
-  
-  /*TOPO (logo) - Background 1*/
-  .topo {
-  background:#1e1e2f;
-   text-align: center;
-   display: flex;
-   padding: 20px 40px;
-   justify-content: space-between;
-  }
-  
-  .logo {
-    width: 90px;
-    height: 90px;
+}
+
+.topo {
+    background-color: #1e1e2f;
+    text-align: center;
+    display: flex;
+    padding: 15px 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
     background: #888;
     border-radius: 8px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: #fff;
-    font-size: 14px;
-  }
+}
 
-  .bug{
-    padding-right: 115px;
-  }
+.bug {
+  padding-right: 0;
+  width: 100%;
+  text-align: center;
+}
 
-  .bug a{
-    text-decoration: none;
-    color: #fff;
-  }
+.bug a {
+  text-decoration: none;
+  color: #fff;
+}
 
-  /*MENU - Background 2*/
-  .menu {
+
+.menu {
     background: #e63946;
     display: flex;
     justify-content: center;
     gap: 16px;
     padding: 14px 40px;
-  }
-  
-  .link-menu {
+}
+
+.link-menu {
     color: #fff;
     text-decoration: none;
     padding: 8px 20px;
     border: 2px solid #fff;
     border-radius: 12px;
     font-weight: bold;
-  }
-  
-  .link-menu:hover {
+}
+
+.link-menu:hover {
     background: #fff;
     color: #e63946;
-  }
+}
+
+.pagina-jogos {
+    flex: 1;
+    width: 90%;
+    max-width: 1100px;
+    margin: 30px 30px;
+}
+
+.introducao-jogos {
+  background-color: #fff;
+  padding: 25px;
+  margin: 30px ;
+  width: 80%;
+  border: 2px solid #222;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+}
+
+.introducao-jogos h1 {
+  margin-top: 0;
+  color: #1e1e2f;
+  font-size: 26px;
+}
+
+.introducao-jogos p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+.lista-jogos {
+    width: 100%;
+    margin: 40px 80px;
+    padding: 25px;
+    box-sizing: border-box;
+    background: rgba(30, 30, 47, 0.95);
+    border-radius: 12px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.lista-jogos h2 {
+    color: #fff;
+    background: #e63946;
+    padding: 20px;
+    margin-top: 0;
+    margin-bottom: 30px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.cards-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 25px;
+}
+
+.card-jogo {
+    background-color: #95D7FF;
+    width: 30%;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+}
+
+.card-jogo:hover {
+    background-color: #75c8fa;
+    transition: 0.5s;
+}
+
+.card-jogo img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    display: block;
+}
+
+.info-jogo {
+    padding: 15px;
+}
+
+.info-jogo h3 {
+    color: #1e1e2f;
+    font-size: 18px;
+    margin: 10px 0;
+}
+
+.info-jogo p {
+    margin: 10px 0;
+    color: #1e1e2f;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.ano {
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 5px;
+    margin: 10px 0;
+    color: #1e1e2f;
+    font-size: 14px;
+}
+
+.rodape {
+    background: #1e1e2f;
+    padding: 24px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.termos {
+    color: #fff;
+    text-decoration: none;
+}
+
+.termos:hover {
+    text-decoration: underline;
+}
+
+.contatos {
+    display: flex;
+    gap: 14px;
+}
+
+.bolinha {
+    width: 44px;
+    height: 44px;
+    background: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icone {
+    width: 24px;
+    height: 24px;
+}
