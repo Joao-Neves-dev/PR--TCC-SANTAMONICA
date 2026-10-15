@@ -2,42 +2,46 @@ body {
     margin: 0;
     font-family: Arial, sans-serif;
     background-image: url("imagens/background.jpg");
-    background-size: contain;
     background-color: #1e1e2f;
+    background-position: center;
     color: #222;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    min-height: 100vh;
 }
 
+/*TOPO (logo) - igual à página inicial*/
 .topo {
     background-color: #1e1e2f;
     text-align: center;
     display: flex;
-    padding: 15px 40px;
+    padding: 20px 40px;
     justify-content: space-between;
-    align-items: center;
 }
 
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 90px;
+    height: 90px;
     background: #888;
     border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-size: 14px;
 }
 
 .bug {
-  padding-right: 0;
-  width: 100%;
-  text-align: center;
+    flex: 1;
+    padding-right: 90px;
 }
 
 .bug a {
-  text-decoration: none;
-  color: #fff;
+    text-decoration: none;
+    color: #fff;
 }
 
-
+/*MENU - igual à página inicial*/
 .menu {
     background: #e63946;
     display: flex;
@@ -60,36 +64,39 @@ body {
     color: #e63946;
 }
 
+/*CONTEÚDO*/
 .pagina-jogos {
     flex: 1;
-    width: 90%;
+    width: 100%;
     max-width: 1100px;
-    margin: 30px 30px;
+    align-self: center;
+    margin: 30px 0;
+    padding: 0 20px;
+    box-sizing: border-box;
 }
 
 .introducao-jogos {
-  background-color: #fff;
-  padding: 25px;
-  margin-left: 15%;
-  width: 80%;
-  border: 2px solid #222;
-  border-radius: 10px;
-  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    padding: 25px;
+    margin-bottom: 30px;
+    border: 2px solid #222;
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
 
 .introducao-jogos h1 {
-  margin-top: 0;
-  color: #1e1e2f;
-  font-size: 26px;
+    margin-top: 0;
+    color: #1e1e2f;
+    font-size: 26px;
 }
 
 .introducao-jogos p {
-  font-size: 15px;
+    font-size: 15px;
 }
 
 .lista-jogos {
     width: 100%;
-    margin: 40px 80px;
+    margin: 0;
     padding: 25px;
     box-sizing: border-box;
     background: rgba(30, 30, 47, 0.95);
@@ -161,6 +168,7 @@ body {
     font-size: 14px;
 }
 
+/*RODAPÉ*/
 .rodape {
     background: #1e1e2f;
     padding: 24px 40px;
