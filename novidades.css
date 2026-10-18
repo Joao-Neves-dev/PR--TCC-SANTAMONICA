@@ -11,6 +11,8 @@ main{
     padding: 24px;
 }
 
+/*HEADER E NAV*/
+
 .topo {
     background: linear-gradient(135deg, #1e1e2f, #3a3a5c);
     padding: 20px 40px;
@@ -50,20 +52,44 @@ main{
     color: #e63946;
   }
 
-
+ /*BANNER*/
+ 
   .banner{
     background-image: url(./img/Banner\ teste\ 2.jpg);
     display: flex;
     justify-content: flex-start;
-    align-items: flex-start;
-    height: 80vh;
+    align-items: flex-end;
+    height: 50vh;
     background-size:cover;
     background-position: center;
   }
   .texto{
     width: 45%;
-    font-size:v 
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+    margin-top: 10px;
   }
+
+.botao button{
+  height: 90px;
+  width: 300px;
+  border-radius: 15px 2px;
+  border: none;
+  background-color:#e63946;
+  color:rgb(255, 255, 255);
+  font-size: 30px;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.botao button:hover{
+  transform: scale(1.05);
+  transition: 0.5s;
+  box-shadow: 10px 10px 5px 0px rgba(82,6,6,0.5);
+  background-color:#ad2b36;
+}
+
   /*CAIXAS DE NOVIDADE*/
 
   .novidade{
@@ -75,15 +101,18 @@ main{
     display: flex;
     align-items: center;
     gap: 16px;
-    border: 1px solid #520606;
+    border: 3px solid #520606;
     padding: 12px;
-    border-radius: 15px;
+    border-radius: 15px 2px;
     margin: 15px;
+    box-shadow: 10px 10px 5px 0px rgba(82,6,6,0.75);
   }
   .card img{
     width: 120px;
-    height: 100px;
+    height: 120px;
     object-fit: cover;
+    margin: 0%;
+    border-radius: 7px;
   }
   .conteudo{
     display: flex;
@@ -95,10 +124,13 @@ main{
   .conteudo a{
     text-decoration: none;
     color: #1e1e2f;
+    
   }
   .conteudo a:hover{
     text-decoration: underline;
     color:#e63946;
+    background-color:#5c4f4f;
+    width: 62px;
   }
   h2{
     font-size: 30px;
@@ -112,7 +144,10 @@ main{
     justify-content: space-between;
     align-items: center;
   }
-  
+  .rodape p{
+    color: white;
+    }
+
   .termos {
     color: #fff;
     text-decoration: none;

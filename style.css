@@ -152,7 +152,9 @@ body {
   .termos:hover {
     text-decoration: underline;
   }
-  
+  .rodape p{
+    color: white;
+    }
   .contatos {
     display: flex;
     gap: 14px;
@@ -188,6 +190,7 @@ body {
     overflow: hidden;
     text-align: center;
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+     cursor: pointer;
 }
 
 .card:hover{
